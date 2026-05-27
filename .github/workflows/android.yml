@@ -24,11 +24,10 @@ jobs:
 
       - name: Build APK
         run: |
-          cd NovaAssistant_Complete
           gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: NovaAssistant-APK
-          path: NovaAssistant_Complete/app/build/outputs/apk/debug/app-debug.apk
+          path: app/build/outputs/apk/debug/app-debug.apk
