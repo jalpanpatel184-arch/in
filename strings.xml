@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nova Assistant</string>
+    <string name="accessibility_service_label">Nova AI Assistant</string>
+    <string name="accessibility_service_description">Nova uses this service to control apps, tap buttons, type text, and automate tasks on your behalf via voice commands.</string>
+</resources>
